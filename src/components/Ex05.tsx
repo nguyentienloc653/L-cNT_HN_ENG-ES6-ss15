@@ -35,13 +35,9 @@ export default class Ex05 extends Component<object> {
         <div className="student-manager">
           {/* Tiêu đề */}
           <h2 className="title">Quản lý sinh viên</h2>
-
-          {/* Hàng trên: nút thêm */}
           <div className="top-actions">
             <button className="btn-add">Thêm mới sinh viên</button>
           </div>
-
-          {/* Hàng dưới: select + input */}
           <div className="filter-bar">
             <select>
               <option value="age">Sắp xếp theo tuổi</option>
