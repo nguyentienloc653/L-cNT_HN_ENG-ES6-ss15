@@ -4,14 +4,14 @@
   padding: 20px;
 }
 
-/* Tiêu đề */
+
 .title {
   margin: 0 0 10px;
   font-size: 18px;
   font-weight: bold;
 }
 
-/* Nút thêm mới nằm hàng trên */
+
 .top-actions {
   display: flex;
   justify-content: flex-end;
@@ -31,15 +31,15 @@
   background: #1d4ed8;
 }
 
-/* Thanh filter (select + input) */
+
 .filter-bar {
   display: flex;
-  justify-content: flex-end; /* đẩy về bên phải */
+  justify-content: flex-end; 
   align-items: center;
   gap: 8px;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid #eee; /* gạch ngang mờ */
+  border-bottom: 1px solid #eee; 
 }
 
 .filter-bar select {
@@ -47,7 +47,7 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   outline: none;
-  width: 180px; /* cố định chiều rộng */
+  width: 180px; 
 }
 
 .filter-bar input {
@@ -55,10 +55,10 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   outline: none;
-  width: 250px; /* thu gọn lại */
+  width: 250px; 
 }
 
-/* Bảng */
+
 .student-table {
   width: 100%;
   border-collapse: collapse;
@@ -78,7 +78,7 @@
   font-weight: 600;
 }
 
-/* Trạng thái */
+
 .status {
   padding: 4px 8px;
   border-radius: 6px;
@@ -94,7 +94,7 @@
   color: #991b1b;
 }
 
-/* Nút nhỏ */
+
 .btn.small {
   padding: 4px 8px;
   margin-right: 4px;
@@ -117,8 +117,7 @@
   color: #991b1b;
 }
 
-/* Phân trang */
-/* Phân trang */
+
 .pagination {
   display: flex;
   justify-content: center;
