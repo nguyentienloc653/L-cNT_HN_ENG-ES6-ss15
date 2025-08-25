@@ -14,7 +14,7 @@ export default class Ex08 extends Component<object, State> {
     };
   }
 
-  // chạy sau khi component render lần đầu
+  
   componentDidMount() {
     this.timerId = window.setInterval(() => {
       this.setState((prevState) => ({
