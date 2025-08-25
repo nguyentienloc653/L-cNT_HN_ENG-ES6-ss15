@@ -5,7 +5,7 @@ interface State {
 }
 
 export default class Ex08 extends Component<object, State> {
-  timerId!: number; // lưu interval ID
+  timerId!: number;
 
   constructor(props: object) {
     super(props);
@@ -18,12 +18,12 @@ export default class Ex08 extends Component<object, State> {
   componentDidMount() {
     this.timerId = window.setInterval(() => {
       this.setState((prevState) => ({
-        count: (prevState.count + 1) % 11, // khi =10 thì quay về 0
+        count: (prevState.count + 1) % 11, 
       }));
     }, 1000);
   }
 
-  // chạy khi component bị gỡ
+ 
   componentWillUnmount() {
     clearInterval(this.timerId);
   }
